@@ -649,9 +649,9 @@ class dds_camp_event_participant(osv.osv):
          'staff_id': fields.many2one('dds_camp.staff', 'Tilmeldt under', select=True, ondelete='cascade'),
     }
     
-    _sql_constraints = [
-        ('participation_uniq', 'unique(registration_id, partner_id)', 'Participant must be unique!'),
-    ]
+    #_sql_constraints = [
+    #    ('participation_uniq', 'unique(registration_id, partner_id)', 'Participant must be unique!'),
+    #]
     
     _defaults = {'event_id2' : lambda *a: 1}
     
