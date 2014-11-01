@@ -21,14 +21,14 @@
 
 
 {
-    "name" : "DDS Camp",
-    "version" : "1.0",
-    "author" : "Hans Henrik Gabelgaard",
-    "website" : "http://www.blushoejspejderne.dk/",
-    "category" : "Generic Modules/Others",
-    "depends" : ["base", "event", "mail","better_zip","portal","report_xls","web","account"],
-    'summary': 'Troops, Participants, Activities, Staff',
-    "description" : """
+    "name":     "DDS Camp",
+    "version":  "1.0",
+    "author":   "Hans Henrik Gabelgaard",
+    "website":  "http://www.blushoejspejderne.dk/",
+    "category": "Generic Modules/Others",
+    "depends":  ["base", "event", "mail","better_zip","portal","report_xls","web","account"],
+    'summary':  'Troops, Participants, Activities, Staff',
+    "description": """
 DDS Camp
 ========
 
@@ -40,12 +40,12 @@ This application is useful for managing large Scout Camps:
 * IST/Staffing
 * Transportation    
 """,
-    "init_xml" : [],
-    "demo_xml" : [],
+    "init_xml":  [],
+    "demo_xml":  [],
     'data': [
              #'security/ir.model.access.csv',
              ],
-    "update_xml" : ["dds_camp_view.xml",
+    "update_xml":  ["dds_camp_view.xml",
                     "event_view.xml",
                     "security/dds_camp_security.xml",
                     "wizard/bmimport_view.xml",
@@ -59,7 +59,7 @@ This application is useful for managing large Scout Camps:
                     
                     ],
     
-    'js': ['static/src/js/dds_camp.js'],
+    'js':      ['static/src/js/dds_camp.js'],
     "installable": True,
     'auto_install': False,
 }
