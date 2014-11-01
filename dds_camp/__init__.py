@@ -22,6 +22,6 @@
 import event
 import res_partner
 import report
-import dds_camp_activity
+from dds_camp import dds_camp_activity
 import transport
 import wizard
