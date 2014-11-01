@@ -4,11 +4,8 @@ python:
   - "2.7"
 
 env:
-  - VERSION="8.0" ODOO_REPO="odoo/odoo" EXCLUDE="logistic_consignee"
-  - VERSION="8.0" ODOO_REPO="OCA/OCB" EXCLUDE="logistic_consignee"
-  - VERSION="8.0" ODOO_REPO="odoo/odoo" INCLUDE="logistic_consignee"
-  - VERSION="8.0" ODOO_REPO="OCA/OCB" INCLUDE="logistic_consignee"
-
+  - VERSION="saas-2" ODOO_REPO="odoo/odoo" EXCLUDE="logistic_consignee"
+  
 virtualenv:
   system_site_packages: true
 
